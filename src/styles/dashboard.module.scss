@@ -1,0 +1,28 @@
+.carouselContainer {
+    // max-height: fit-content;
+}
+.carouselItem {
+    // border: 20px solid green;
+    // max-height: 50vh;
+}
+
+.carouselItem img {
+    // border: 2px solid black;
+    width: 100%;
+    // height: 50px;
+    max-height: 90vh;
+    overflow: scroll;
+}
+
+.productsContainer {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 20px;
+    column-gap: 10px;
+}
+
+@media screen and (max-width:520px) {
+    .productsContainer {
+        grid-template-columns: 1fr;
+    }
+}

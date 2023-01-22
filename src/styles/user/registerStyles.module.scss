@@ -1,0 +1,45 @@
+.registerContainer {
+    width: 100vw;
+    height: 100vh;
+    // border: 2px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formContainer {
+    // width: 30vw;
+    max-width: 30px;
+    padding: 20px;
+    // background-color: black;
+    border-radius: 10px;
+    margin: 20px 0;
+    // border: 2px solid red;
+
+}
+
+.alertContainer {
+    margin: 10px 0;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    margin: 20px 0;
+    gap: 20px;
+}
+
+.link {
+    color: black;
+}
+
+@media screen and (max-width:520px) {
+    .formContainer {
+        max-width: 95vw;
+    }
+    .btnContainer {
+        flex-direction: column;
+    }
+}
